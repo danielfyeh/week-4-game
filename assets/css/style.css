@@ -1,0 +1,22 @@
+#mainContent{
+	background-image: url(../images/light-arena.gif);
+	background-repeat: no-repeat;
+	background-size:100% 100%;
+	
+}
+.profile-pic{
+width: 150px;
+height: 200px;
+}	
+
+#heroEntry{
+	margin-top: 200px;
+	width:200px;
+	height:200px;
+}	
+
+#heroAttacked{
+	margin-top: 200px;
+	width:600px;
+	height:200px;
+}	

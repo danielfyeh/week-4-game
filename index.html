@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> MvC RPG GAME</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="row container">
+        <div>
+            <h3> Select your hero </h3></div>
+        <div class="container col-lg-3 col-sm-3 col-md-3 col-xs-3 profile">
+            <h3 class="heroHeader">Strider Hiryu</h3>
+            <img src="assets/images/strider-profile.png" class="profile-pic" height=200px>
+            <div>
+                <button class="btn btn-danger btn-lg selectHero striderSelect">Select Hero</button>
+            </div>
+        </div>
+        <div class="container col-lg-3 col-sm-3 col-md-3 col-xs-3 profile">
+            <h3 class="heroHeader">Wolverine</h3>
+            <img src="assets/images/wolvie-profile.jpg" class="profile-pic" height=200px>
+            <div>
+                <button class="btn btn-danger btn-lg selectHero wolvieSelect">Select Hero</button>
+            </div>
+        </div>
+        <div class="container col-lg-3 col-sm-3 col-md-3 col-xs-3 profile">
+            <h3 class="heroHeader">Cyclops</h3>
+            <img src="assets/images/cyclops-profile.jpg" class="profile-pic" height=200px>
+            <div>
+                <button class="btn btn-danger btn-lg selectHero cyclopsSelect">Select Hero</button>
+            </div>
+        </div>
+        <div class="container col-lg-3 col-sm-3 col-md-3 col-xs-3 profile">
+            <h3 class="heroHeader">Ryu</h3>
+            <img src="assets/images/ryu-profile.jpg" class="profile-pic" height=200px>
+            <div>
+                <button class="btn btn-danger btn-lg selectHero ryuSelect">Select Hero</button>
+            </div>
+        </div>
+    </div>
+    <div class="row container-fluid" id="mainContent">
+        <div class="fightArena">
+            <div class="col-lg-8 col-md-8 col-sm-8 col-xs-8 hero">
+            <div id="heroSelected"></div>
+            <div>
+            	<button class="btn btn-primary btn-sm attack">attack</button>
+            	<button class="btn btn-danger btn-sm HC">Hyper Combo</button></div>
+
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-8 opponent" id="opponentSelected"></div>
+        </div>
+        </main>
+        <script src="https://code.jquery.com/jquery.js"></script>
+        <script type="text/javascript" src="assets/javascript/game.js"></script>
+</body>
+
+</html>
