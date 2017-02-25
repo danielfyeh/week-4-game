@@ -10,7 +10,7 @@
 <body>
     <div class="row container">
         <div>
-            <h3> Select your hero </h3></div>
+            <h3 class="heroOpponent"> Select your hero </h3></div>
         <div class="container col-lg-3 col-sm-3 col-md-3 col-xs-3 profile">
             <h3 class="heroHeader">Strider Hiryu</h3>
             <img src="assets/images/strider-profile.png" class="profile-pic" height=200px>
@@ -42,14 +42,16 @@
     </div>
     <div class="row container-fluid" id="mainContent">
         <div class="fightArena">
-            <div class="col-lg-8 col-md-8 col-sm-8 col-xs-8 hero">
+        <div> 
+        <h2 class="damageDealt"> damage dealt: </h2>
+            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 hero">
             <div id="heroSelected"></div>
             <div>
             	<button class="btn btn-primary btn-sm attack">attack</button>
-            	<button class="btn btn-danger btn-sm HC">Hyper Combo</button></div>
+            	<button class="btn btn-danger btn-sm hc disabled">Hyper Combo</button></div>
 
             </div>
-            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-8 opponent" id="opponentSelected"></div>
+            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 opponent" id="opponentSelected"></div>
         </div>
         </main>
         <script src="https://code.jquery.com/jquery.js"></script>
